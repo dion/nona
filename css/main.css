@@ -154,6 +154,9 @@ h1 {
 	padding-top:30px;
 	padding-bottom:15px;
 }
+.hp-services .email-consult {
+	background: url('../images/services-email-consultation.jpg');
+}
 .hp-services .email-consult h2 {
 	padding-top:18px;
 	padding-bottom:0px;
@@ -166,8 +169,13 @@ h1 {
 	padding-top:10px;
 	padding-bottom:14px;
 }
+.hp-services .resume-critique,
+.hp-services .skype-consult,
 .hp-services .email-consult {
-	background: url('../images/services-email-consultation.jpg');
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 .hp-the-book {
 	text-align:center;
