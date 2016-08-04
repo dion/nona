@@ -71,6 +71,7 @@ h1 {
 }
 .navbar-default .navbar-toggle {
 	margin-top:20px;
+	margin-right:0px;
 	border-color:#fff;
 }
 
