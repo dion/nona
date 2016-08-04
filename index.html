@@ -24,7 +24,7 @@
 
                 <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
-                        <li>
+                        <li class="hidden-sm">
                             <a href="/">Home</a>
                         </li>
 						<li>
@@ -74,9 +74,10 @@
 
 							<p>My no-nonsense process will get you to your end goal of landing a job in a shorter amount of time.</p>
 						</div>
-						<div class="col-lg-5 voffset5">						
+						<div class="col-lg-5 voffset5 text-center">						
 							<img src="images/about-player-mock.jpg">
 						</div>
+
 					</div>
 				</div>
 			</div>
@@ -87,23 +88,27 @@
 				<div class="row">
 					<div class="col-lg-12">
 						<h1>What are my services?</h1>
-						<ul>
-							<li class="resume-critique">
-								<h2>Resume and Cover Letter Critique</h2>
-								<p>Figure out why you aren't receiving any follow ups or callbacks about the positions you've applied to.</p>
-								<button type="button" class="btn btn-secondary">Learn More</button>
-							</li>
-							<li class="skype-consult">
-								<h2>Skype Consultation</h2>
-								<p>We can fine-tune and come up with the best way to save you time and future headaches and deliver a clear and consice strategy.</p>
-								<button type="button" class="btn btn-secondary">Learn More</button>
-							</li>
-							<li class="email-consult">
-								<h2>Email Consultation</h2>
-								<p>When you don't have time to talk over skype or phone, or you would be more comfortable writing out everything.</p>
-								<button type="button" class="btn btn-secondary">Learn More</button>
-							</li>
-						</ul>
+						
+						<div class="col-lg-4 resume-critique text-center">
+							<h2>Resume and Cover Letter Critique</h2>
+							<p>Figure out why you aren't receiving any follow ups or callbacks about the positions you've applied to.</p>
+							<button type="button" class="btn btn-secondary">Learn More</button>
+							<div class="col-lg-12 voffset3"></div>
+						</div>
+						<div class="col-lg-4 skype-consult text-center">
+							<h2>Skype Consultation</h2>
+							<p>We can fine-tune and come up with the best way to save you time and future headaches and deliver a clear and consice strategy.</p>
+							<button type="button" class="btn btn-secondary">Learn More</button>
+							<div class="col-lg-12 voffset3"></div>
+						</div>
+						<div class="col-lg-4 email-consult text-center">
+							<h2>Email Consultation</h2>
+							<p>When you don't have time to talk over skype or phone, or you would be more comfortable writing out everything.</p>
+							<button type="button" class="btn btn-secondary">Learn More</button>
+							<div class="col-lg-12 voffset2"></div>
+
+						</div>
+
 					</div>
 				</div>
 			</div>
@@ -119,21 +124,21 @@
 						</div>
 						<p>What does the book cover? The book is split into three main parts:</p>
 
-						<ul>
-							<li class="part-one">
+						<div class="col-lg-12 container">
+							<div class="col-lg-4 item part-one">
 								<h2>Part One</h2>
 								<h3>YOU</h3>
-							</li>
-							<li class="part-two">
+							</div>
+							<div class="col-lg-4 item part-two">
 								<h2>Part Two</h2>
 								<h3>THEM</h3>
-							</li>
-							<li class="part-three">
+							</div>
+							<div class="col-lg-4 item part-three">
 								<h2>Part Three</h2>
 								<h3>BRING IT</h3>
-							</li>
-						</ul>
-
+							</div>
+						</div>
+						
 						<div class="col-lg-12 voffset3">
 							<button type="button" class="btn btn-primary">Learn More</button>
 						</div>
@@ -151,17 +156,17 @@
 							<h1>Testimonials</h1>
 						</div>
 
-						<ul class="col-lg-6 item" style="xmargin-right:226px;">
-							<li class="img"><img src="images/suarez.png"></li>
-							<li class="text">“I moved out of a  not-so-challenging position to a more exciting job where I got to take on more challenges and get greater growth opportunities”<br>-Melissa</li>
-						</ul>
+						<div class="col-sm-12 col-md-12 col-lg-6 item">
+							<span class="col-md-3 col-lg-4 img text-right"><img src="images/suarez.png"></span>
+							<span class="col-md-9 col-lg-7 text">“I moved out of a  not-so-challenging position to a more exciting job where I got to take on more challenges and get greater growth opportunities”<br>-Melissa</span>
+						</div>
 
-						<ul class="col-lg-1 item"></ul>
-						<ul class="col-lg-5 item">
-							<li class="img"><img src="images/hundal.png"></li>
-							<li class="text">“I moved out of my dead-end job to a company where I’m getting to learn new applications and get to do things that will help my career in the long run”<br>-Sandeep</li>
-						</ul>
+						<div class="col-sm-12 col-md-12 col-lg-6 item">
+							<span class="col-md-3 col-lg-4 img text-right"><img src="images/hundal.png"></span>
+							<span class="col-md-9 col-lg-7 text">“I moved out of my dead-end job to a company where I’m getting to learn new applications and get to do things that will help my career in the long run”<br>-Sandeep</span>
+						</div>
 
+						<!-- <div class="col-lg-12 voffset4"></div> -->
 					</div>
 				</div>
 			</div>
@@ -197,6 +202,7 @@
 				</div>
 			</div>
 		</div>
-
+		<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+		<script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 	</body>
 </html>
