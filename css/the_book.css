@@ -1,0 +1,63 @@
+.the-book {
+	padding-bottom:60px;
+}
+.the-book .header h1 {
+	font-size:37px;
+}
+.the-book h1 {
+	font-size:32px;	
+}
+.the-book h2 {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size:28px;
+}
+.the-book h3 {
+	font-size:16px;
+	font-weight:700;
+}
+.the-book ul {
+	margin:0;
+	padding:0 0 0 20px;
+}
+.the-book ul li {
+	margin-bottom:10px;
+}
+.the-book .book-parts {
+	padding:0;
+}
+.the-book .book-parts h2,
+.the-book .book-parts h3 {
+	font-family: 'Roboto Condensed', sans-serif;
+	margin:0;
+}
+.the-book .book-parts h2 {
+	font-size:30px;
+}
+.the-book .book-parts h3 {
+	font-size:60px;
+}
+.the-book .book-parts .item {
+	padding:76px 0 140px;
+}
+.the-book .book-parts .part-one {
+	background:url('../images/hp-book-you.jpg');
+}
+.the-book .book-parts .part-two {
+	background:url('../images/hp-book-them.jpg');
+}
+.the-book .book-parts .part-three {
+	background:url('../images/hp-book-bring-it.jpg');
+}
+.the-book .book-parts .part-one,
+.the-book .book-parts .part-two,
+.the-book .book-parts .part-three {
+	webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.the-book .content {
+	padding:90px 50px;
+	background-color:#333;
+	color:#fff;
+}

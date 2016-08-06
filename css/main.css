@@ -255,6 +255,7 @@ h1 {
 }
 .global-footer h1 {
 	font-size:28px;
+	line-height:1.3em;
 }
 .global-footer button {
 	padding:10px 25px;

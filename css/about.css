@@ -1,0 +1,27 @@
+.about-intro {
+	padding-bottom:30px;
+	font-size:16px;
+}
+.about-intro h1 {
+	font-size:54px;
+}
+.about-intro .header h1 {
+	font-size:29px;
+}
+.about-intro .companies h3 {
+	margin: 10px 0;
+    font-size: 19px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.story-intro h1 {
+	font-size:28px;
+}
+.story-intro p {
+	margin:15px 0 30px;
+}
+.story-intro .first-column {
+	padding:0 100px 0 0;
+}
+.story-intro .second-column {
+	padding-left:0;
+}

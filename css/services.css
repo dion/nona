@@ -1,0 +1,55 @@
+.services {
+	padding-bottom:20px;
+}
+.services .header{
+	padding:0;
+}
+.services h2 {
+	font-family:'Roboto Condensed', sans-serif;
+	font-size:36px;
+}
+.services h3 {
+	font-size:16px;
+	color:#fff;
+	margin:0;
+}
+.services ul {
+	list-style-type:none;
+	padding:0;
+	margin:0;
+}
+.services .btn-primary {
+	padding:10px 40px;
+}
+.services .item {
+	padding:0;
+	margin:20px 0;
+}
+.services .resume-critique {
+	background: url('../images/services-resume-critique.jpg');
+}
+.services .skype-consult {
+	background: url('../images/services-skype-consultation.jpg');
+}
+.services .email-consult {
+	background: url('../images/services-email-consultation.jpg');
+}
+.services .resume-critique, 
+.services .skype-consult,
+.services .email-consult {
+	color:#fff;
+	padding:60px 80px;
+	font-size:16px;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.services .options-header {
+	background-color:#333333;	
+	padding:15px 0 15px 30px;
+}
+.services .price {
+	font-size:48px;
+	font-weight:700;
+}
