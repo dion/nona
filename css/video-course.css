@@ -1,0 +1,17 @@
+.video-course {
+	padding-bottom:50px;
+}
+.video-course .nopadding {
+	padding:0;
+}
+.video-course .btn-primary {
+	padding:10px 40px;
+}
+.video-course h2 {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size:37px;
+	margin-bottom:20px;
+}
+.video-course p {
+	margin-bottom:20px;
+}

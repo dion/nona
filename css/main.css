@@ -3,6 +3,9 @@ body {
 	font-size:18px;
 	color:#333;
 }
+a {
+	color:#fff;
+}
 h1 {
 	font-family: 'Roboto Condensed', sans-serif;
 }
@@ -124,6 +127,10 @@ h1 {
 .charcoal-section {
 	background-color:#333;
 	color:#fff;
+}
+.hp-services a:hover {
+	color:#fff;
+	text-decoration:none;
 }
 .hp-services h1 {
 	font-size:28px;
