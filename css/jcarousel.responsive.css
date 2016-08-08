@@ -20,7 +20,7 @@
 }
 
 .jcarousel li {
-    width: 292px;
+    width:292px!important;
     float: left;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -65,7 +65,7 @@
 }
 
 /** Carousel Pagination **/
-/*
+
 .jcarousel-pagination {
     position: absolute;
     bottom: -40px;
@@ -106,4 +106,4 @@
     -webkit-box-shadow: 0 0 2px #F0EFE7;
     -moz-box-shadow: 0 0 2px #F0EFE7;
     box-shadow: 0 0 2px #F0EFE7;
-}*/
+}

@@ -29,7 +29,7 @@
                 target: '+=1'
             });
 
-        /*$('.jcarousel-pagination')
+        $('.jcarousel-pagination')
             .on('jcarouselpagination:active', 'a', function() {
                 $(this).addClass('active');
             })
@@ -40,10 +40,10 @@
                 e.preventDefault();
             })
             .jcarouselPagination({
-                perPage: 1,
+                //perPage: 4,
                 item: function(page) {
                     return '<a href="#' + page + '">' + page + '</a>';
                 }
             });
-    });*/
+    });
 })(jQuery);
