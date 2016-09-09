@@ -114,6 +114,10 @@ h1 {
 .gray-section {
 	background-color:#E6E6E6;
 }
+.gray-section a {
+	color:#3498DB;
+	font-weight:700;
+}
 .hp-intro {
 	padding-bottom:40px;
 	background:#E6E6E6 url('../images/grey-tile.jpg');
